@@ -3,10 +3,14 @@ const router = express.Router();
 
 const {
   createCustomer,
-  getCustomers
+  getCustomers,
+  getInactiveCustomers,
+  deleteCustomer
 } = require('../controllers/customerController');
 
-router.post('/', createCustomer);
+router.get('/inactive', getInactiveCustomers);
 router.get('/', getCustomers);
+router.post('/', createCustomer);
+router.delete('/:id', deleteCustomer);
 
 module.exports = router;

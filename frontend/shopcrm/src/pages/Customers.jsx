@@ -106,11 +106,22 @@ export default function Customers() {
     addLog('Customer Added', customer.name, 'success');
   };
 
-  const handleDelete = (id, name) => {
+  const handleDelete = async (id, name) => {
     if (!window.confirm(`Remove ${name}?`)) return;
-    setCustomers((prev) => prev.filter((c) => c.id !== id));
-    showToast(`${name} removed`, 'default');
-    addLog('Customer Removed', name, 'success');
+
+    try {
+      if (api.USE_DUMMY_DATA) {
+        await sleep(400);
+      } else {
+        await api.deleteCustomer(id);
+      }
+
+      setCustomers((prev) => prev.filter((c) => c.id !== id));
+      showToast(`${name} removed`, 'success');
+      addLog('Customer Removed', name, 'success');
+    } catch (err) {
+      showToast(`Failed to remove ${name}`, 'error');
+    }
   };
 
   return (

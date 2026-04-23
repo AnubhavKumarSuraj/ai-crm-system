@@ -1,0 +1,4 @@
+◇ injected env (3) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Connecting to PostgreSQL at aws-1-ap-south-1.pooler.supabase.com:6543/postgres
+🚀 Server running on port 5000
+PostgreSQL connected successfully: { current_database: 'postgres', current_user: 'postgres' }

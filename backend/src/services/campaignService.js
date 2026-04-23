@@ -36,6 +36,33 @@ const getCampaignById = async (executor, campaignId) => {
   return result.rows[0] || null;
 };
 
+const insertCampaignMessages = async ({
+  client,
+  campaign,
+  target,
+  status,
+}) => {
+  if (target === 'inactive') {
+    return client.query(
+      `INSERT INTO messages (customer_id, campaign_id, message, channel, status)
+       SELECT id, $1, $2, 'whatsapp', $3
+       FROM customers
+       WHERE last_visit IS NOT NULL
+         AND last_visit < CURRENT_DATE - $4::int
+       RETURNING id`,
+      [campaign.id, campaign.message, status, DEFAULT_INACTIVE_DAYS]
+    );
+  }
+
+  return client.query(
+    `INSERT INTO messages (customer_id, campaign_id, message, channel, status)
+     SELECT id, $1, $2, 'whatsapp', $3
+     FROM customers
+     RETURNING id`,
+    [campaign.id, campaign.message, status]
+  );
+};
+
 const sendWebhookTrigger = async ({ campaignId, target }) => {
   const webhookUrl = process.env.N8N_WEBHOOK_URL;
 
@@ -75,48 +102,35 @@ const sendWebhookTrigger = async ({ campaignId, target }) => {
   }
 };
 
-const triggerCampaignLocally = async ({ campaign, target, fallbackReason = null }) => {
+const recordCampaignDispatch = async ({
+  campaign,
+  target,
+  mode,
+  status,
+  logDetails,
+}) => {
   const client = await pool.connect();
 
   try {
     await client.query('BEGIN');
 
-    let insertResult;
-
-    if (target === 'inactive') {
-      insertResult = await client.query(
-        `INSERT INTO messages (customer_id, campaign_id, message, channel, status)
-         SELECT id, $1, $2, 'whatsapp', 'sent'
-         FROM customers
-         WHERE last_visit IS NOT NULL
-           AND last_visit < CURRENT_DATE - $3::int
-         RETURNING id`,
-        [campaign.id, campaign.message, DEFAULT_INACTIVE_DAYS]
-      );
-    } else {
-      insertResult = await client.query(
-        `INSERT INTO messages (customer_id, campaign_id, message, channel, status)
-         SELECT id, $1, $2, 'whatsapp', 'sent'
-         FROM customers
-         RETURNING id`,
-        [campaign.id, campaign.message]
-      );
-    }
-
-    const detailPrefix = fallbackReason
-      ? `Campaign ${campaign.name} processed locally after webhook fallback`
-      : `Campaign ${campaign.name} processed locally`;
+    const insertResult = await insertCampaignMessages({
+      client,
+      campaign,
+      target,
+      status,
+    });
 
     await logService.createLogWithClient(client, {
       event_type: 'Campaign Triggered',
-      details: `${detailPrefix} for target "${target}" with ${insertResult.rowCount} messages. ${fallbackReason ? `Reason: ${fallbackReason}` : 'Webhook was not used.'}`,
+      details: logDetails(insertResult.rowCount),
     });
 
     await client.query('COMMIT');
 
     return {
       messagesSent: insertResult.rowCount,
-      mode: 'local',
+      mode,
     };
   } catch (error) {
     await client.query('ROLLBACK');
@@ -124,6 +138,37 @@ const triggerCampaignLocally = async ({ campaign, target, fallbackReason = null 
   } finally {
     client.release();
   }
+};
+
+const triggerCampaignLocally = async ({
+  campaign,
+  target,
+  fallbackReason = null,
+}) => {
+  return recordCampaignDispatch({
+    campaign,
+    target,
+    mode: 'local',
+    status: 'sent',
+    logDetails: (count) => {
+      const detailPrefix = fallbackReason
+        ? `Campaign ${campaign.name} processed locally after webhook fallback`
+        : `Campaign ${campaign.name} processed locally`;
+
+      return `${detailPrefix} for target "${target}" with ${count} messages. ${fallbackReason ? `Reason: ${fallbackReason}` : 'Webhook was not used.'}`;
+    },
+  });
+};
+
+const recordWebhookDispatch = async ({ campaign, target }) => {
+  return recordCampaignDispatch({
+    campaign,
+    target,
+    mode: 'webhook',
+    status: 'pending',
+    logDetails: (count) =>
+      `Campaign ${campaign.name} dispatched to n8n webhook for target "${target}" with ${count} pending message rows recorded.`,
+  });
 };
 
 const triggerCampaign = async ({ campaignId, target }) => {
@@ -136,15 +181,10 @@ const triggerCampaign = async ({ campaignId, target }) => {
   const webhookResult = await sendWebhookTrigger({ campaignId, target });
 
   if (webhookResult.ok) {
-    await logService.createLog({
-      event_type: 'Campaign Triggered',
-      details: `Campaign ${campaign.name} dispatched to n8n webhook for target "${target}".`,
+    return recordWebhookDispatch({
+      campaign,
+      target,
     });
-
-    return {
-      messagesSent: 0,
-      mode: 'webhook',
-    };
   }
 
   return triggerCampaignLocally({

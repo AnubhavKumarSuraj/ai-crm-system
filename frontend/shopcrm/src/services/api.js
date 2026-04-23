@@ -33,6 +33,7 @@ async function request(method, path, body = null) {
 
 export const addCustomer = (data) => request('POST', '/customers', data);
 export const getCustomers = () => request('GET', '/customers');
+export const getCampaigns = () => request('GET', '/campaigns');
 export const deleteCustomer = (id) => request('DELETE', `/customers/${id}`);
 export const getInactiveCustomers = (days = 30) =>
   request('GET', `/customers/inactive?days=${days}`);
@@ -41,3 +42,6 @@ export const triggerCampaign = (data) => request('POST', '/campaigns/trigger', d
 export const generateMessage = (data) => request('POST', '/ai/generate-message', data);
 export const sendMessage = (data) => request('POST', '/messages/send', data);
 export const getLogs = () => request('GET', '/logs');
+export const runInactiveRecovery = () =>
+  request('POST', '/automation/remind-inactive');
+export const getMessages = () => request('GET', '/messages');

@@ -3,10 +3,13 @@ import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import ToastContainer from './Toast';
 import { useToast } from '../hooks/useToast';
-import { getCustomers } from '../services/api';
+import {
+  getCampaigns,
+  getCustomers,
+  USE_DUMMY_DATA,
+} from '../services/api';
 import { DUMMY_CAMPAIGNS } from '../utils/dummyData';
 
-// ─── App-wide state context ───────────────────────────────────────────────────
 export const AppContext = createContext(null);
 export const useApp = () => useContext(AppContext);
 
@@ -14,31 +17,50 @@ const PAGE_TITLES = {
   '/dashboard': 'Dashboard',
   '/customers': 'Customers',
   '/campaigns': 'Campaigns',
+  '/messages': 'Messages',
 };
+
+const normalizeCampaign = (campaign) => ({
+  ...campaign,
+  created: campaign.created_at || campaign.created,
+});
 
 export default function Layout() {
   const location = useLocation();
   const { toasts, showToast, removeToast } = useToast();
 
-  // ✅ STATE (now connected to backend)
   const [customers, setCustomers] = useState([]);
-  const [campaigns, setCampaigns] = useState(DUMMY_CAMPAIGNS);
+  const [campaigns, setCampaigns] = useState(
+    USE_DUMMY_DATA ? DUMMY_CAMPAIGNS : []
+  );
   const [logs, setLogs] = useState([]);
 
-  // ✅ FETCH CUSTOMERS FROM BACKEND
   useEffect(() => {
-    fetchCustomers();
-  }, []);
+    const loadInitialData = async () => {
+      try {
+        const customerRes = await getCustomers();
+        setCustomers(customerRes.data);
+      } catch (err) {
+        console.error('Failed to fetch customers:', err);
+        showToast('Backend not connected. Using empty data.', 'error');
+      }
 
-  const fetchCustomers = async () => {
-    try {
-      const res = await getCustomers();
-      setCustomers(res.data); // IMPORTANT: backend returns { status, data }
-    } catch (err) {
-      console.error("Failed to fetch customers:", err);
-      showToast("Backend not connected. Using empty data.", "error");
-    }
-  };
+      if (USE_DUMMY_DATA) {
+        setCampaigns(DUMMY_CAMPAIGNS);
+        return;
+      }
+
+      try {
+        const campaignRes = await getCampaigns();
+        setCampaigns(campaignRes.data.map(normalizeCampaign));
+      } catch (err) {
+        console.error('Failed to fetch campaigns:', err);
+        showToast('Failed to load campaigns from backend.', 'error');
+      }
+    };
+
+    loadInitialData();
+  }, [showToast]);
 
   const addLog = (event, details, status = 'success') => {
     setLogs((prev) => [
@@ -65,7 +87,6 @@ export default function Layout() {
         <Navbar />
 
         <div className="flex flex-col flex-1 min-w-0">
-          {/* Topbar */}
           <header className="flex items-center justify-between px-7 h-[52px] bg-surface border-b border-[var(--border)] flex-shrink-0">
             <span className="text-sm font-semibold text-[var(--text)]">
               {pageTitle}
@@ -79,12 +100,11 @@ export default function Layout() {
                   fontFamily: "'DM Mono', monospace",
                 }}
               >
-                API Mode 🚀
+                API Mode
               </span>
             </div>
           </header>
 
-          {/* Page content */}
           <main className="flex-1 overflow-auto p-7">
             <Outlet />
           </main>

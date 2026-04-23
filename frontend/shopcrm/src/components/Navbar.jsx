@@ -19,6 +19,7 @@ const NAV_ITEMS = [
       },
     ],
   },
+
   {
     section: 'Manage',
     links: [
@@ -34,12 +35,24 @@ const NAV_ITEMS = [
           </svg>
         ),
       },
+
       {
         to: '/campaigns',
         label: 'Campaigns',
         icon: (
           <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
             <path d="M14 3L2 7l4 2 2 5 2-4 4-7z"/>
+          </svg>
+        ),
+      },
+
+      {
+        to: '/messages',
+        label: 'Messages',
+        icon: (
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <rect x="1.5" y="3" width="13" height="10" rx="2"/>
+            <path d="M3 5l5 4 5-4"/>
           </svg>
         ),
       },

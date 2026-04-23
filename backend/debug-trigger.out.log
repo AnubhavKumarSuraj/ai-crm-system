@@ -1,0 +1,4 @@
+◇ injected env (2) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Connecting to PostgreSQL at aws-1-ap-south-1.pooler.supabase.com:6543/postgres
+🚀 Server running on port 5052
+PostgreSQL connected successfully: { current_database: 'postgres', current_user: 'postgres' }

@@ -2,6 +2,8 @@ const campaignService = require('../services/campaignService');
 
 const VALID_CAMPAIGN_TYPES = new Set(['manual', 'automated']);
 const VALID_TARGETS = new Set(['all', 'inactive']);
+const UUID_PATTERN =
+  /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 exports.createCampaign = async (req, res) => {
   const { name, message, type } = req.body;
@@ -67,6 +69,13 @@ exports.triggerCampaign = async (req, res) => {
     return res.status(400).json({
       status: 'error',
       error: 'target must be all or inactive'
+    });
+  }
+
+  if (!UUID_PATTERN.test(campaign_id)) {
+    return res.status(400).json({
+      status: 'error',
+      error: 'campaign_id must be a valid UUID'
     });
   }
 

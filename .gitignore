@@ -4,3 +4,7 @@ dist/
 build/
 coverage/
 .DS_Store
+*.out.log
+*.err.log
+*.error.log
+*.warning.log

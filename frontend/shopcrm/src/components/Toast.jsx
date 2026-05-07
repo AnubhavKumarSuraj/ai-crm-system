@@ -31,7 +31,8 @@ function Toast({ message, type = 'default', onRemove }) {
 }
 
 export default function ToastContainer({ toasts, removeToast }) {
-  if (!toasts.length) return null;
+  console.log("Toast rendering", toasts);
+  if (!toasts || !toasts.length) return null;
   return (
     <div className="fixed bottom-5 right-5 flex flex-col gap-2 z-[999]">
       <style>{`

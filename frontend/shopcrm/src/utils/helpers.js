@@ -3,11 +3,14 @@
  */
 
 // How many days since a date string (YYYY-MM-DD)
-export function daysSince(dateStr) {
-  if (!dateStr) return 999;
-  const diff = new Date() - new Date(dateStr);
-  return Math.floor(diff / 86_400_000);
-}
+export const daysSince = (date) => {
+  if (!date) return 0;
+  const now = new Date();
+  const d = new Date(date);
+  if (isNaN(d)) return 0;
+  const diff = now - d;
+  return Math.floor(diff / (1000 * 60 * 60 * 24));
+};
 
 // Format a date string to readable format
 export function formatDate(str) {

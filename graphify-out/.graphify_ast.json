@@ -1,0 +1,3841 @@
+{
+  "nodes": [
+    {
+      "id": "backend_server_js",
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "backend\\server.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_test_db_js",
+      "label": "test_db.js",
+      "file_type": "code",
+      "source_file": "backend\\test_db.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_test_db_run",
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "backend\\test_db.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "backend_config_db_js",
+      "label": "db.js",
+      "file_type": "code",
+      "source_file": "backend\\config\\db.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "config_db_getsafetarget",
+      "label": "getSafeTarget()",
+      "file_type": "code",
+      "source_file": "backend\\config\\db.js",
+      "source_location": "L10"
+    },
+    {
+      "id": "config_db_connectdb",
+      "label": "connectDB()",
+      "file_type": "code",
+      "source_file": "backend\\config\\db.js",
+      "source_location": "L29"
+    },
+    {
+      "id": "backend_scripts_checkdb_js",
+      "label": "checkDb.js",
+      "file_type": "code",
+      "source_file": "backend\\scripts\\checkDb.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_checkdb_run",
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "backend\\scripts\\checkDb.js",
+      "source_location": "L16"
+    },
+    {
+      "id": "backend_scripts_initdb_js",
+      "label": "initDb.js",
+      "file_type": "code",
+      "source_file": "backend\\scripts\\initDb.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_initdb_run",
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "backend\\scripts\\initDb.js",
+      "source_location": "L21"
+    },
+    {
+      "id": "backend_src_app_js",
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\app.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_automation_config_js",
+      "label": "config.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "automation_config_toboolean",
+      "label": "toBoolean()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "automation_config_topositiveinteger",
+      "label": "toPositiveInteger()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\config.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "backend_src_automation_crmapi_js",
+      "label": "crmApi.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\crmApi.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "automation_crmapi_getinactivecustomers",
+      "label": "getInactiveCustomers()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\crmApi.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "automation_crmapi_triggercampaign",
+      "label": "triggerCampaign()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\crmApi.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "automation_crmapi_createlog",
+      "label": "createLog()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\crmApi.js",
+      "source_location": "L18"
+    },
+    {
+      "id": "backend_src_automation_scheduler_js",
+      "label": "scheduler.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\scheduler.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "automation_scheduler_startscheduler",
+      "label": "startScheduler()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\scheduler.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "backend_src_automation_jobs_dailysummaryjob_js",
+      "label": "dailySummaryJob.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\jobs\\dailySummaryJob.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "jobs_dailysummaryjob_createdailysummaryjob",
+      "label": "createDailySummaryJob()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\jobs\\dailySummaryJob.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "backend_src_automation_jobs_inactiverecoveryjob_js",
+      "label": "inactiveRecoveryJob.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\jobs\\inactiveRecoveryJob.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "jobs_inactiverecoveryjob_createinactiverecoveryjob",
+      "label": "createInactiveRecoveryJob()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\jobs\\inactiveRecoveryJob.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "backend_src_automation_services_automationservice_js",
+      "label": "automationService.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\services\\automationService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_automationservice_createautomationlog",
+      "label": "createAutomationLog()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\services\\automationService.js",
+      "source_location": "L10"
+    },
+    {
+      "id": "services_automationservice_runinactiverecovery",
+      "label": "runInactiveRecovery()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\services\\automationService.js",
+      "source_location": "L14"
+    },
+    {
+      "id": "services_automationservice_rundailysummary",
+      "label": "runDailySummary()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\services\\automationService.js",
+      "source_location": "L139"
+    },
+    {
+      "id": "backend_src_automation_utils_cronlogger_js",
+      "label": "cronLogger.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_cronlogger_buildsuffix",
+      "label": "buildSuffix()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_cronlogger_info",
+      "label": "info()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "utils_cronlogger_start",
+      "label": "start()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "utils_cronlogger_success",
+      "label": "success()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L17"
+    },
+    {
+      "id": "utils_cronlogger_warn",
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L21"
+    },
+    {
+      "id": "utils_cronlogger_error",
+      "label": "error()",
+      "file_type": "code",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L25"
+    },
+    {
+      "id": "backend_src_controllers_automationcontroller_js",
+      "label": "automationController.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\controllers\\automationController.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_controllers_campaigncontroller_js",
+      "label": "campaignController.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\controllers\\campaignController.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_controllers_customercontroller_js",
+      "label": "customerController.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\controllers\\customerController.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_controllers_logcontroller_js",
+      "label": "logController.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\controllers\\logController.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_controllers_messagecontroller_js",
+      "label": "messageController.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\controllers\\messageController.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "controllers_messagecontroller_getmessages",
+      "label": "getMessages()",
+      "file_type": "code",
+      "source_file": "backend\\src\\controllers\\messageController.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "controllers_messagecontroller_getmessagesummary",
+      "label": "getMessageSummary()",
+      "file_type": "code",
+      "source_file": "backend\\src\\controllers\\messageController.js",
+      "source_location": "L19"
+    },
+    {
+      "id": "backend_src_routes_automationroutes_js",
+      "label": "automationRoutes.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\routes\\automationRoutes.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_routes_campaignroutes_js",
+      "label": "campaignRoutes.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\routes\\campaignRoutes.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_routes_customerroutes_js",
+      "label": "customerRoutes.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\routes\\customerRoutes.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_routes_logroutes_js",
+      "label": "logRoutes.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\routes\\logRoutes.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_routes_messageroutes_js",
+      "label": "messageRoutes.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\routes\\messageRoutes.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_src_services_automationservice_js",
+      "label": "automationService.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_automationservice_buildresultmessage",
+      "label": "buildResultMessage()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L14"
+    },
+    {
+      "id": "services_automationservice_remindinactivecustomers",
+      "label": "remindInactiveCustomers()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L40"
+    },
+    {
+      "id": "backend_src_services_campaignservice_js",
+      "label": "campaignService.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_campaignservice_resolvemessagesource",
+      "label": "resolveMessageSource()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "services_campaignservice_createcampaign",
+      "label": "createCampaign()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L34"
+    },
+    {
+      "id": "services_campaignservice_getcampaigns",
+      "label": "getCampaigns()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L45"
+    },
+    {
+      "id": "services_campaignservice_getcampaignbyid",
+      "label": "getCampaignById()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L55"
+    },
+    {
+      "id": "services_campaignservice_insertcampaignmessages",
+      "label": "insertCampaignMessages()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L66"
+    },
+    {
+      "id": "services_campaignservice_sendwebhooktrigger",
+      "label": "sendWebhookTrigger()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L104"
+    },
+    {
+      "id": "services_campaignservice_recordcampaigndispatch",
+      "label": "recordCampaignDispatch()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L150"
+    },
+    {
+      "id": "services_campaignservice_triggercampaignlocally",
+      "label": "triggerCampaignLocally()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L192"
+    },
+    {
+      "id": "services_campaignservice_recordwebhookdispatch",
+      "label": "recordWebhookDispatch()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L216"
+    },
+    {
+      "id": "services_campaignservice_triggercampaign",
+      "label": "triggerCampaign()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L234"
+    },
+    {
+      "id": "backend_src_services_customerservice_js",
+      "label": "customerService.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_customerservice_addcustomer",
+      "label": "addCustomer()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "services_customerservice_getcustomers",
+      "label": "getCustomers()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L16"
+    },
+    {
+      "id": "services_customerservice_getinactivecustomers",
+      "label": "getInactiveCustomers()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L21"
+    },
+    {
+      "id": "services_customerservice_deletecustomer",
+      "label": "deleteCustomer()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L34"
+    },
+    {
+      "id": "backend_src_services_geminiservice_js",
+      "label": "geminiService.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\geminiService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_geminiservice_generaterecoverymessage",
+      "label": "generateRecoveryMessage()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\geminiService.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "backend_src_services_logservice_js",
+      "label": "logService.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_logservice_insertlog",
+      "label": "insertLog()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "services_logservice_getlogs",
+      "label": "getLogs()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L12"
+    },
+    {
+      "id": "services_logservice_createlog",
+      "label": "createLog()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L22"
+    },
+    {
+      "id": "services_logservice_createlogwithclient",
+      "label": "createLogWithClient()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L28"
+    },
+    {
+      "id": "backend_src_services_messageservice_js",
+      "label": "messageService.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\messageService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_messageservice_getmessages",
+      "label": "getMessages()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\messageService.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "services_messageservice_getmessagesummary",
+      "label": "getMessageSummary()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\messageService.js",
+      "source_location": "L30"
+    },
+    {
+      "id": "backend_src_services_whatsappservice_js",
+      "label": "whatsappService.js",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_whatsappservice_isconfiguredvalue",
+      "label": "isConfiguredValue()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L11"
+    },
+    {
+      "id": "services_whatsappservice_getconfigissue",
+      "label": "getConfigIssue()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L14"
+    },
+    {
+      "id": "services_whatsappservice_gettwilioconfigissues",
+      "label": "getTwilioConfigIssues()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L28"
+    },
+    {
+      "id": "services_whatsappservice_getsendtimeoutms",
+      "label": "getSendTimeoutMs()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L35"
+    },
+    {
+      "id": "services_whatsappservice_withtimeout",
+      "label": "withTimeout()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L42"
+    },
+    {
+      "id": "services_whatsappservice_formatwhatsappnumber",
+      "label": "formatWhatsAppNumber()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L52"
+    },
+    {
+      "id": "services_whatsappservice_gettwilioclient",
+      "label": "getTwilioClient()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L80"
+    },
+    {
+      "id": "services_whatsappservice_sendwhatsappmessage",
+      "label": "sendWhatsAppMessage()",
+      "file_type": "code",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L93"
+    },
+    {
+      "id": "frontend_shopcrm_postcss_config_js",
+      "label": "postcss.config.js",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\postcss.config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "frontend_shopcrm_tailwind_config_js",
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\tailwind.config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "frontend_shopcrm_src_app_js",
+      "label": "App.js",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L19"
+    },
+    {
+      "id": "frontend_shopcrm_src_index_js",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\index.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_badge_jsx",
+      "label": "Badge.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Badge.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_badge_badge",
+      "label": "Badge()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Badge.jsx",
+      "source_location": "L18"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_button_jsx",
+      "label": "Button.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Button.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_button_button",
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Button.jsx",
+      "source_location": "L24"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_card_jsx",
+      "label": "Card.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_card_card",
+      "label": "Card()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "components_card_cardheader",
+      "label": "CardHeader()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L26"
+    },
+    {
+      "id": "components_card_cardcontent",
+      "label": "CardContent()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L46"
+    },
+    {
+      "id": "components_card_cardfooter",
+      "label": "CardFooter()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L54"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_input_jsx",
+      "label": "Input.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_input_input",
+      "label": "Input()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L17"
+    },
+    {
+      "id": "components_input_textarea",
+      "label": "Textarea()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L21"
+    },
+    {
+      "id": "components_input_select",
+      "label": "Select()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L31"
+    },
+    {
+      "id": "components_input_formfield",
+      "label": "FormField()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L39"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_layout_jsx",
+      "label": "Layout.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_layout_useapp",
+      "label": "useApp()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L25"
+    },
+    {
+      "id": "components_layout_normalizecampaign",
+      "label": "normalizeCampaign()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L51"
+    },
+    {
+      "id": "components_layout_layout",
+      "label": "Layout()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L56"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_modal_jsx",
+      "label": "Modal.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Modal.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_modal_modal",
+      "label": "Modal()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Modal.jsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_navbar_jsx",
+      "label": "Navbar.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Navbar.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_navbar_navbar",
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Navbar.jsx",
+      "source_location": "L63"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_sourcebadge_jsx",
+      "label": "SourceBadge.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\SourceBadge.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_sourcebadge_sourcelabel",
+      "label": "sourceLabel()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\SourceBadge.jsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "components_sourcebadge_sourcebadge",
+      "label": "SourceBadge()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\SourceBadge.jsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_statscard_jsx",
+      "label": "StatsCard.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\StatsCard.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_statscard_statscard",
+      "label": "StatsCard()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\StatsCard.jsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "frontend_shopcrm_src_components_toast_jsx",
+      "label": "Toast.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Toast.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_toast_toast",
+      "label": "Toast()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Toast.jsx",
+      "source_location": "L16"
+    },
+    {
+      "id": "components_toast_toastcontainer",
+      "label": "ToastContainer()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\components\\Toast.jsx",
+      "source_location": "L33"
+    },
+    {
+      "id": "frontend_shopcrm_src_hooks_usetoast_js",
+      "label": "useToast.js",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\hooks\\useToast.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_usetoast_usetoast",
+      "label": "useToast()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\hooks\\useToast.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "frontend_shopcrm_src_pages_businessdemo_jsx",
+      "label": "BusinessDemo.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\BusinessDemo.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_businessdemo_businessdemo",
+      "label": "BusinessDemo()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\BusinessDemo.jsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "label": "Campaigns.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_campaigns_createcampaignmodal",
+      "label": "CreateCampaignModal()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L17"
+    },
+    {
+      "id": "pages_campaigns_festivalcampaignmodal",
+      "label": "FestivalCampaignModal()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L130"
+    },
+    {
+      "id": "pages_campaigns_triggercampaignmodal",
+      "label": "TriggerCampaignModal()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L188"
+    },
+    {
+      "id": "pages_campaigns_campaigns",
+      "label": "Campaigns()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L289"
+    },
+    {
+      "id": "pages_campaigns_campaigncard",
+      "label": "CampaignCard()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L413"
+    },
+    {
+      "id": "frontend_shopcrm_src_pages_customers_jsx",
+      "label": "Customers.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_customers_addcustomermodal",
+      "label": "AddCustomerModal()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "pages_customers_customers",
+      "label": "Customers()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L84"
+    },
+    {
+      "id": "pages_customers_plusicon",
+      "label": "PlusIcon()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L399"
+    },
+    {
+      "id": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "label": "Dashboard.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_dashboard_sourcelabelfromlog",
+      "label": "sourceLabelFromLog()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L18"
+    },
+    {
+      "id": "pages_dashboard_dashboard",
+      "label": "Dashboard()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L40"
+    },
+    {
+      "id": "pages_dashboard_emptystate",
+      "label": "EmptyState()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L236"
+    },
+    {
+      "id": "frontend_shopcrm_src_pages_landingpage_jsx",
+      "label": "LandingPage.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_landingpage_fadeinsection",
+      "label": "FadeInSection()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "pages_landingpage_landingpage",
+      "label": "LandingPage()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L40"
+    },
+    {
+      "id": "frontend_shopcrm_src_pages_messages_jsx",
+      "label": "Messages.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_messages_messages",
+      "label": "Messages()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "frontend_shopcrm_src_pages_onboarding_jsx",
+      "label": "Onboarding.jsx",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Onboarding.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_onboarding_onboarding",
+      "label": "Onboarding()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Onboarding.jsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "frontend_shopcrm_src_services_api_js",
+      "label": "api.js",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_api_request",
+      "label": "request()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L14"
+    },
+    {
+      "id": "services_api_addcustomer",
+      "label": "addCustomer()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L34"
+    },
+    {
+      "id": "services_api_getcustomers",
+      "label": "getCustomers()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L35"
+    },
+    {
+      "id": "services_api_getcampaigns",
+      "label": "getCampaigns()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L36"
+    },
+    {
+      "id": "services_api_deletecustomer",
+      "label": "deleteCustomer()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L37"
+    },
+    {
+      "id": "services_api_getinactivecustomers",
+      "label": "getInactiveCustomers()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L38"
+    },
+    {
+      "id": "services_api_createcampaign",
+      "label": "createCampaign()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L40"
+    },
+    {
+      "id": "services_api_triggercampaign",
+      "label": "triggerCampaign()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L41"
+    },
+    {
+      "id": "services_api_generatemessage",
+      "label": "generateMessage()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L42"
+    },
+    {
+      "id": "services_api_sendmessage",
+      "label": "sendMessage()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L43"
+    },
+    {
+      "id": "services_api_getlogs",
+      "label": "getLogs()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L44"
+    },
+    {
+      "id": "services_api_runinactiverecovery",
+      "label": "runInactiveRecovery()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L45"
+    },
+    {
+      "id": "services_api_getmessages",
+      "label": "getMessages()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L47"
+    },
+    {
+      "id": "services_api_getmessagesummary",
+      "label": "getMessageSummary()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L48"
+    },
+    {
+      "id": "frontend_shopcrm_src_utils_dummydata_js",
+      "label": "dummyData.js",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\dummyData.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_dummydata_daysago",
+      "label": "daysAgo()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\dummyData.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "frontend_shopcrm_src_utils_helpers_js",
+      "label": "helpers.js",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_helpers_dayssince",
+      "label": "daysSince()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "utils_helpers_formatdate",
+      "label": "formatDate()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L16"
+    },
+    {
+      "id": "utils_helpers_todayiso",
+      "label": "todayISO()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L26"
+    },
+    {
+      "id": "utils_helpers_daysago",
+      "label": "daysAgo()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L31"
+    },
+    {
+      "id": "utils_helpers_customerstatus",
+      "label": "customerStatus()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L38"
+    },
+    {
+      "id": "utils_helpers_localid",
+      "label": "localId()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L46"
+    },
+    {
+      "id": "utils_helpers_esc",
+      "label": "esc()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L51"
+    },
+    {
+      "id": "utils_helpers_sleep",
+      "label": "sleep()",
+      "file_type": "code",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L56"
+    }
+  ],
+  "edges": [
+    {
+      "source": "backend_test_db_js",
+      "target": "backend_test_db_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\test_db.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_config_db_js",
+      "target": "config_db_getsafetarget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\config\\db.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_config_db_js",
+      "target": "config_db_connectdb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\config\\db.js",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_scripts_checkdb_js",
+      "target": "scripts_checkdb_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\scripts\\checkDb.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_scripts_initdb_js",
+      "target": "scripts_initdb_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\scripts\\initDb.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_config_js",
+      "target": "automation_config_toboolean",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\config.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_config_js",
+      "target": "automation_config_topositiveinteger",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\config.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_crmapi_js",
+      "target": "automation_crmapi_getinactivecustomers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\crmApi.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_crmapi_js",
+      "target": "automation_crmapi_triggercampaign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\crmApi.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_crmapi_js",
+      "target": "automation_crmapi_createlog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\crmApi.js",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_scheduler_js",
+      "target": "automation_scheduler_startscheduler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\scheduler.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_jobs_dailysummaryjob_js",
+      "target": "jobs_dailysummaryjob_createdailysummaryjob",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\jobs\\dailySummaryJob.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_jobs_inactiverecoveryjob_js",
+      "target": "jobs_inactiverecoveryjob_createinactiverecoveryjob",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\jobs\\inactiveRecoveryJob.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_services_automationservice_js",
+      "target": "services_automationservice_createautomationlog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\services\\automationService.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_services_automationservice_js",
+      "target": "services_automationservice_runinactiverecovery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\services\\automationService.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_services_automationservice_js",
+      "target": "services_automationservice_rundailysummary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\services\\automationService.js",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "services_automationservice_runinactiverecovery",
+      "target": "services_automationservice_createautomationlog",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\services\\automationService.js",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_utils_cronlogger_js",
+      "target": "utils_cronlogger_buildsuffix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_utils_cronlogger_js",
+      "target": "utils_cronlogger_info",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_utils_cronlogger_js",
+      "target": "utils_cronlogger_start",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_utils_cronlogger_js",
+      "target": "utils_cronlogger_success",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_utils_cronlogger_js",
+      "target": "utils_cronlogger_warn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_automation_utils_cronlogger_js",
+      "target": "utils_cronlogger_error",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_cronlogger_info",
+      "target": "utils_cronlogger_buildsuffix",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_cronlogger_start",
+      "target": "utils_cronlogger_buildsuffix",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_cronlogger_success",
+      "target": "utils_cronlogger_buildsuffix",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_cronlogger_warn",
+      "target": "utils_cronlogger_buildsuffix",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_cronlogger_error",
+      "target": "utils_cronlogger_buildsuffix",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\automation\\utils\\cronLogger.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_controllers_messagecontroller_js",
+      "target": "controllers_messagecontroller_getmessages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\controllers\\messageController.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_controllers_messagecontroller_js",
+      "target": "controllers_messagecontroller_getmessagesummary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\controllers\\messageController.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_automationservice_js",
+      "target": "services_automationservice_buildresultmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_automationservice_js",
+      "target": "services_automationservice_remindinactivecustomers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "services_automationservice_remindinactivecustomers",
+      "target": "services_automationservice_buildresultmessage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_resolvemessagesource",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_createcampaign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_getcampaigns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_getcampaignbyid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_insertcampaignmessages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_sendwebhooktrigger",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_recordcampaigndispatch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_triggercampaignlocally",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_recordwebhookdispatch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_campaignservice_js",
+      "target": "services_campaignservice_triggercampaign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "services_campaignservice_recordcampaigndispatch",
+      "target": "services_campaignservice_insertcampaignmessages",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "services_campaignservice_triggercampaignlocally",
+      "target": "services_campaignservice_recordcampaigndispatch",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "services_campaignservice_recordwebhookdispatch",
+      "target": "services_campaignservice_recordcampaigndispatch",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
+      "source": "services_campaignservice_triggercampaign",
+      "target": "services_campaignservice_getcampaignbyid",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "services_campaignservice_triggercampaign",
+      "target": "services_campaignservice_resolvemessagesource",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "services_campaignservice_triggercampaign",
+      "target": "services_campaignservice_sendwebhooktrigger",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "services_campaignservice_triggercampaign",
+      "target": "services_campaignservice_recordwebhookdispatch",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "services_campaignservice_triggercampaign",
+      "target": "services_campaignservice_triggercampaignlocally",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\campaignService.js",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_customerservice_js",
+      "target": "services_customerservice_addcustomer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_customerservice_js",
+      "target": "services_customerservice_getcustomers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_customerservice_js",
+      "target": "services_customerservice_getinactivecustomers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_customerservice_js",
+      "target": "services_customerservice_deletecustomer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\customerService.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_geminiservice_js",
+      "target": "services_geminiservice_generaterecoverymessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\geminiService.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_logservice_js",
+      "target": "services_logservice_insertlog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_logservice_js",
+      "target": "services_logservice_getlogs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_logservice_js",
+      "target": "services_logservice_createlog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_logservice_js",
+      "target": "services_logservice_createlogwithclient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "services_logservice_createlog",
+      "target": "services_logservice_insertlog",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "services_logservice_createlogwithclient",
+      "target": "services_logservice_insertlog",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\logService.js",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_messageservice_js",
+      "target": "services_messageservice_getmessages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\messageService.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_messageservice_js",
+      "target": "services_messageservice_getmessagesummary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\messageService.js",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_whatsappservice_js",
+      "target": "services_whatsappservice_isconfiguredvalue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_whatsappservice_js",
+      "target": "services_whatsappservice_getconfigissue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_whatsappservice_js",
+      "target": "services_whatsappservice_gettwilioconfigissues",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_whatsappservice_js",
+      "target": "services_whatsappservice_getsendtimeoutms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_whatsappservice_js",
+      "target": "services_whatsappservice_withtimeout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_whatsappservice_js",
+      "target": "services_whatsappservice_formatwhatsappnumber",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_whatsappservice_js",
+      "target": "services_whatsappservice_gettwilioclient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_src_services_whatsappservice_js",
+      "target": "services_whatsappservice_sendwhatsappmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "services_whatsappservice_gettwilioclient",
+      "target": "services_whatsappservice_gettwilioconfigissues",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "services_whatsappservice_sendwhatsappmessage",
+      "target": "services_whatsappservice_isconfiguredvalue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "services_whatsappservice_sendwhatsappmessage",
+      "target": "services_whatsappservice_gettwilioclient",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "services_whatsappservice_sendwhatsappmessage",
+      "target": "services_whatsappservice_gettwilioconfigissues",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "services_whatsappservice_sendwhatsappmessage",
+      "target": "services_whatsappservice_getsendtimeoutms",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "services_whatsappservice_sendwhatsappmessage",
+      "target": "services_whatsappservice_withtimeout",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend\\src\\services\\whatsappService.js",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_layout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_pages_landingpage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_pages_onboarding",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_pages_businessdemo",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_pages_dashboard",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_pages_customers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_pages_campaigns",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_pages_messages",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_app_js",
+      "target": "src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\App.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_index_js",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\index.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_index_js",
+      "target": "client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\index.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_index_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_index_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\index.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_index_js",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\index.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_badge_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Badge.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_badge_jsx",
+      "target": "components_badge_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Badge.jsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_button_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Button.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_button_jsx",
+      "target": "components_button_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Button.jsx",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_card_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_card_jsx",
+      "target": "components_card_card",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_card_jsx",
+      "target": "components_card_cardheader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_card_jsx",
+      "target": "components_card_cardcontent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_card_jsx",
+      "target": "components_card_cardfooter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Card.jsx",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_input_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_input_jsx",
+      "target": "components_input_input",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_input_jsx",
+      "target": "components_input_textarea",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_input_jsx",
+      "target": "components_input_select",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_input_jsx",
+      "target": "components_input_formfield",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Input.jsx",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_navbar",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_toast",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_hooks_usetoast",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "hooks_usetoast_usetoast",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "services_api_getcampaigns",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "services_api_getcustomers",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "services_api_use_dummy_data",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_utils_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "utils_helpers_dayssince",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_utils_dummydata",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "utils_dummydata_dummy_campaigns",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "components_layout_useapp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "components_layout_normalizecampaign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_layout_jsx",
+      "target": "components_layout_layout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_modal_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Modal.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_modal_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Modal.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_modal_jsx",
+      "target": "components_modal_modal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Modal.jsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_navbar_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Navbar.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_navbar_jsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Navbar.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_navbar_jsx",
+      "target": "components_navbar_navbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Navbar.jsx",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_sourcebadge_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\SourceBadge.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_sourcebadge_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_badge",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\SourceBadge.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_sourcebadge_jsx",
+      "target": "components_sourcebadge_sourcelabel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\SourceBadge.jsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_sourcebadge_jsx",
+      "target": "components_sourcebadge_sourcebadge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\SourceBadge.jsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "components_sourcebadge_sourcebadge",
+      "target": "components_sourcebadge_sourcelabel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\SourceBadge.jsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_statscard_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\StatsCard.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_statscard_jsx",
+      "target": "components_statscard_statscard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\StatsCard.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_toast_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Toast.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_toast_jsx",
+      "target": "components_toast_toast",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Toast.jsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_components_toast_jsx",
+      "target": "components_toast_toastcontainer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\components\\Toast.jsx",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_hooks_usetoast_js",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\hooks\\useToast.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_hooks_usetoast_js",
+      "target": "hooks_usetoast_usetoast",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\hooks\\useToast.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_businessdemo_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\BusinessDemo.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_businessdemo_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\BusinessDemo.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_businessdemo_jsx",
+      "target": "pages_businessdemo_businessdemo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\BusinessDemo.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_layout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "components_layout_useapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_card",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "components_card_cardheader",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_badge",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_modal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_input",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "components_input_formfield",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "components_input_select",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "components_input_textarea",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_utils_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "utils_helpers_localid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "utils_helpers_todayiso",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "utils_helpers_sleep",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "utils_helpers_dayssince",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "utils_helpers_formatdate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "pages_campaigns_createcampaignmodal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "pages_campaigns_festivalcampaignmodal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "pages_campaigns_triggercampaignmodal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "pages_campaigns_campaigns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L289",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_campaigns_jsx",
+      "target": "pages_campaigns_campaigncard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L413",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_layout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "components_layout_useapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_card",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "components_card_cardheader",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_badge",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_modal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_input",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "components_input_formfield",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "components_input_select",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_utils_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "utils_helpers_dayssince",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "utils_helpers_formatdate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "utils_helpers_customerstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "utils_helpers_localid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "utils_helpers_todayiso",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "utils_helpers_sleep",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "pages_customers_addcustomermodal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "pages_customers_customers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_customers_jsx",
+      "target": "pages_customers_plusicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L399",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_layout",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "components_layout_useapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_statscard",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_card",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "components_card_cardheader",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_badge",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_sourcebadge",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_utils_helpers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "utils_helpers_dayssince",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "utils_helpers_customerstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "pages_dashboard_sourcelabelfromlog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "pages_dashboard_dashboard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_dashboard_jsx",
+      "target": "pages_dashboard_emptystate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_landingpage_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_landingpage_jsx",
+      "target": "react_router_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_landingpage_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_landingpage_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_card",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_landingpage_jsx",
+      "target": "components_card_cardcontent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_landingpage_jsx",
+      "target": "pages_landingpage_fadeinsection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_landingpage_jsx",
+      "target": "pages_landingpage_landingpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\LandingPage.jsx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_messages_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_messages_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_messages_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_sourcebadge",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_messages_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_card",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_messages_jsx",
+      "target": "components_card_cardheader",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_messages_jsx",
+      "target": "c_users_asus_ai_crm_system_frontend_shopcrm_src_components_badge",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_messages_jsx",
+      "target": "pages_messages_messages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Messages.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_onboarding_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Onboarding.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_pages_onboarding_jsx",
+      "target": "pages_onboarding_onboarding",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\pages\\Onboarding.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_addcustomer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_getcustomers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_getcampaigns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_deletecustomer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_getinactivecustomers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_createcampaign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_triggercampaign",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_generatemessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_sendmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_getlogs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_runinactiverecovery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_getmessages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_services_api_js",
+      "target": "services_api_getmessagesummary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_addcustomer",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_getcustomers",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_getcampaigns",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_deletecustomer",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_getinactivecustomers",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_createcampaign",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_triggercampaign",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_generatemessage",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_sendmessage",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_getlogs",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_runinactiverecovery",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_getmessages",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "services_api_getmessagesummary",
+      "target": "services_api_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\services\\api.js",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_dummydata_js",
+      "target": "utils_dummydata_daysago",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\dummyData.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_helpers_js",
+      "target": "utils_helpers_dayssince",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_helpers_js",
+      "target": "utils_helpers_formatdate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_helpers_js",
+      "target": "utils_helpers_todayiso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_helpers_js",
+      "target": "utils_helpers_daysago",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_helpers_js",
+      "target": "utils_helpers_customerstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_helpers_js",
+      "target": "utils_helpers_localid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_helpers_js",
+      "target": "utils_helpers_esc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_shopcrm_src_utils_helpers_js",
+      "target": "utils_helpers_sleep",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_customerstatus",
+      "target": "utils_helpers_dayssince",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend\\shopcrm\\src\\utils\\helpers.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "automation_scheduler_startscheduler",
+      "target": "jobs_inactiverecoveryjob_createinactiverecoveryjob",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend\\src\\automation\\scheduler.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "automation_scheduler_startscheduler",
+      "target": "jobs_dailysummaryjob_createdailysummaryjob",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend\\src\\automation\\scheduler.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "services_automationservice_remindinactivecustomers",
+      "target": "services_whatsappservice_gettwilioconfigissues",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "services_automationservice_remindinactivecustomers",
+      "target": "services_whatsappservice_formatwhatsappnumber",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "services_automationservice_remindinactivecustomers",
+      "target": "services_geminiservice_generaterecoverymessage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "services_automationservice_remindinactivecustomers",
+      "target": "services_whatsappservice_sendwhatsappmessage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend\\src\\services\\automationService.js",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "components_layout_layout",
+      "target": "hooks_usetoast_usetoast",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend\\shopcrm\\src\\components\\Layout.jsx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_campaigns_campaigns",
+      "target": "components_layout_useapp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L296",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_campaigns_campaigncard",
+      "target": "utils_helpers_formatdate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend\\shopcrm\\src\\pages\\Campaigns.jsx",
+      "source_location": "L428",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_customers_addcustomermodal",
+      "target": "utils_helpers_todayiso",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_customers_customers",
+      "target": "components_layout_useapp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend\\shopcrm\\src\\pages\\Customers.jsx",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_dashboard_dashboard",
+      "target": "components_layout_useapp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend\\shopcrm\\src\\pages\\Dashboard.jsx",
+      "source_location": "L41",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -11,6 +11,7 @@ const triggerCampaign = async ({ campaignId, target, inactiveDays }) => {
     campaignId,
     target,
     inactiveDays,
+    source: 'scheduled_campaign',
   });
 };
 

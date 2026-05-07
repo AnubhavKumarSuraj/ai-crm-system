@@ -14,7 +14,7 @@ export default function Card({ children, className = '', noPadding = false }) {
   return (
     <div
       className={[
-        'bg-surface border border-[var(--border)] rounded-lg overflow-hidden',
+        'bg-[var(--surface)] border border-[var(--border)] rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden',
         className,
       ].join(' ')}
     >

@@ -1,8 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const { getMessages } = require('../controllers/messageController');
+const {
+  getMessages,
+  getMessageSummary,
+} = require('../controllers/messageController');
 
+router.get('/summary', getMessageSummary);
 router.get('/', getMessages);
 
 module.exports = router;

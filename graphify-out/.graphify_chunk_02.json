@@ -1,0 +1,419 @@
+{
+  "nodes": [
+    {"id": "campaignRoutes_router", "label": "Campaign Routes", "file_type": "code", "source_file": "backend/src/routes/campaignRoutes.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "customerRoutes_router", "label": "Customer Routes", "file_type": "code", "source_file": "backend/src/routes/customerRoutes.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "logRoutes_router", "label": "Log Routes", "file_type": "code", "source_file": "backend/src/routes/logRoutes.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "messageRoutes_router", "label": "Message Routes", "file_type": "code", "source_file": "backend/src/routes/messageRoutes.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "automationService_remindInactiveCustomers", "label": "Automation Service - remindInactiveCustomers", "file_type": "code", "source_file": "backend/src/services/automationService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "campaignService_triggerCampaign", "label": "Campaign Service - triggerCampaign", "file_type": "code", "source_file": "backend/src/services/campaignService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "campaignService_createCampaign", "label": "Campaign Service - createCampaign", "file_type": "code", "source_file": "backend/src/services/campaignService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "campaignService_getCampaigns", "label": "Campaign Service - getCampaigns", "file_type": "code", "source_file": "backend/src/services/campaignService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "campaignService_sendWebhookTrigger", "label": "Campaign Service - sendWebhookTrigger (n8n)", "file_type": "code", "source_file": "backend/src/services/campaignService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "campaignService_recordCampaignDispatch", "label": "Campaign Service - recordCampaignDispatch", "file_type": "code", "source_file": "backend/src/services/campaignService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "campaignService_insertCampaignMessages", "label": "Campaign Service - insertCampaignMessages", "file_type": "code", "source_file": "backend/src/services/campaignService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "customerService_addCustomer", "label": "Customer Service - addCustomer", "file_type": "code", "source_file": "backend/src/services/customerService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "customerService_getCustomers", "label": "Customer Service - getCustomers", "file_type": "code", "source_file": "backend/src/services/customerService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "customerService_getInactiveCustomers", "label": "Customer Service - getInactiveCustomers", "file_type": "code", "source_file": "backend/src/services/customerService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "customerService_deleteCustomer", "label": "Customer Service - deleteCustomer", "file_type": "code", "source_file": "backend/src/services/customerService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "geminiService_generateRecoveryMessage", "label": "Gemini Service - generateRecoveryMessage", "file_type": "code", "source_file": "backend/src/services/geminiService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "logService_createLog", "label": "Log Service - createLog", "file_type": "code", "source_file": "backend/src/services/logService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "logService_createLogWithClient", "label": "Log Service - createLogWithClient", "file_type": "code", "source_file": "backend/src/services/logService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "logService_getLogs", "label": "Log Service - getLogs", "file_type": "code", "source_file": "backend/src/services/logService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "messageService_getMessages", "label": "Message Service - getMessages", "file_type": "code", "source_file": "backend/src/services/messageService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "messageService_getMessageSummary", "label": "Message Service - getMessageSummary", "file_type": "code", "source_file": "backend/src/services/messageService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "whatsappService_sendWhatsAppMessage", "label": "WhatsApp Service - sendWhatsAppMessage", "file_type": "code", "source_file": "backend/src/services/whatsappService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "whatsappService_formatWhatsAppNumber", "label": "WhatsApp Service - formatWhatsAppNumber", "file_type": "code", "source_file": "backend/src/services/whatsappService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "whatsappService_getTwilioConfigIssues", "label": "WhatsApp Service - getTwilioConfigIssues", "file_type": "code", "source_file": "backend/src/services/whatsappService.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "app_AppComponent", "label": "App Root Component", "file_type": "code", "source_file": "frontend/shopcrm/src/App.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "layout_Layout", "label": "Layout Component", "file_type": "code", "source_file": "frontend/shopcrm/src/components/Layout.jsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "layout_AppContext", "label": "AppContext (Global State)", "file_type": "code", "source_file": "frontend/shopcrm/src/components/Layout.jsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "navbar_Navbar", "label": "Navbar Component", "file_type": "code", "source_file": "frontend/shopcrm/src/components/Navbar.jsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "badge_Badge", "label": "Badge UI Component", "file_type": "code", "source_file": "frontend/shopcrm/src/components/Badge.jsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "button_Button", "label": "Button UI Component", "file_type": "code", "source_file": "frontend/shopcrm/src/components/Button.jsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "card_Card", "label": "Card UI Component", "file_type": "code", "source_file": "frontend/shopcrm/src/components/Card.jsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "input_Input", "label": "Input UI Component", "file_type": "code", "source_file": "frontend/shopcrm/src/components/Input.jsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "modal_Modal", "label": "Modal UI Component", "file_type": "code", "source_file": "frontend/shopcrm/src/components/Modal.jsx", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "index_entrypoint", "label": "React App Entry Point", "file_type": "code", "source_file": "frontend/shopcrm/src/index.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "tailwind_config", "label": "Tailwind CSS Config", "file_type": "code", "source_file": "frontend/shopcrm/tailwind.config.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null},
+    {"id": "postcss_config", "label": "PostCSS Config", "file_type": "code", "source_file": "frontend/shopcrm/postcss.config.js", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}
+  ],
+  "edges": [
+    {
+      "source": "automationService_remindInactiveCustomers",
+      "target": "geminiService_generateRecoveryMessage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/automationService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automationService_remindInactiveCustomers",
+      "target": "whatsappService_sendWhatsAppMessage",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/automationService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automationService_remindInactiveCustomers",
+      "target": "whatsappService_formatWhatsAppNumber",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/automationService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automationService_remindInactiveCustomers",
+      "target": "whatsappService_getTwilioConfigIssues",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/automationService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automationService_remindInactiveCustomers",
+      "target": "logService_createLog",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/automationService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "campaignService_triggerCampaign",
+      "target": "campaignService_sendWebhookTrigger",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/campaignService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "campaignService_triggerCampaign",
+      "target": "campaignService_recordCampaignDispatch",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/campaignService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "campaignService_recordCampaignDispatch",
+      "target": "campaignService_insertCampaignMessages",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/campaignService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "campaignService_recordCampaignDispatch",
+      "target": "logService_createLogWithClient",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/campaignService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "app_AppComponent",
+      "target": "layout_Layout",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/shopcrm/src/App.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "layout_Layout",
+      "target": "navbar_Navbar",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/shopcrm/src/components/Layout.jsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "layout_Layout",
+      "target": "layout_AppContext",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/shopcrm/src/components/Layout.jsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "modal_Modal",
+      "target": "button_Button",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/shopcrm/src/components/Modal.jsx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "index_entrypoint",
+      "target": "app_AppComponent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/shopcrm/src/index.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "automationService_remindInactiveCustomers",
+      "target": "campaignService_insertCampaignMessages",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/services/automationService.js",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "campaignService_sendWebhookTrigger",
+      "target": "campaignService_recordCampaignDispatch",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/services/campaignService.js",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "messageService_getMessageSummary",
+      "target": "campaignService_triggerCampaign",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/services/messageService.js",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "customerService_getInactiveCustomers",
+      "target": "automationService_remindInactiveCustomers",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/services/customerService.js",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "whatsappService_sendWhatsAppMessage",
+      "target": "whatsappService_getTwilioConfigIssues",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/whatsappService.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "layout_Layout",
+      "target": "customerService_getCustomers",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "frontend/shopcrm/src/components/Layout.jsx",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "layout_Layout",
+      "target": "campaignService_getCampaigns",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "frontend/shopcrm/src/components/Layout.jsx",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "badge_Badge",
+      "target": "button_Button",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "frontend/shopcrm/src/components/Badge.jsx",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "tailwind_config",
+      "target": "badge_Badge",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "frontend/shopcrm/tailwind.config.js",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "tailwind_config",
+      "target": "button_Button",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "frontend/shopcrm/tailwind.config.js",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "postcss_config",
+      "target": "tailwind_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/shopcrm/postcss.config.js",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "campaignRoutes_router",
+      "target": "campaignService_createCampaign",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/routes/campaignRoutes.js",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "campaignRoutes_router",
+      "target": "campaignService_triggerCampaign",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/routes/campaignRoutes.js",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "messageRoutes_router",
+      "target": "messageService_getMessages",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/routes/messageRoutes.js",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "messageRoutes_router",
+      "target": "messageService_getMessageSummary",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/routes/messageRoutes.js",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "logRoutes_router",
+      "target": "logService_createLog",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/routes/logRoutes.js",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "logRoutes_router",
+      "target": "logService_getLogs",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/routes/logRoutes.js",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "customerRoutes_router",
+      "target": "customerService_addCustomer",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/routes/customerRoutes.js",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "customerRoutes_router",
+      "target": "customerService_getInactiveCustomers",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/src/routes/customerRoutes.js",
+      "source_location": null,
+      "weight": 0.95
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "inactive_recovery_pipeline",
+      "label": "Inactive Customer Recovery Pipeline",
+      "nodes": [
+        "automationService_remindInactiveCustomers",
+        "geminiService_generateRecoveryMessage",
+        "whatsappService_sendWhatsAppMessage",
+        "logService_createLog"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/automationService.js"
+    },
+    {
+      "id": "campaign_dispatch_flow",
+      "label": "Campaign Dispatch Flow (webhook + local fallback)",
+      "nodes": [
+        "campaignService_triggerCampaign",
+        "campaignService_sendWebhookTrigger",
+        "campaignService_recordCampaignDispatch",
+        "logService_createLogWithClient"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/services/campaignService.js"
+    },
+    {
+      "id": "frontend_ui_primitives",
+      "label": "Frontend UI Primitive Components",
+      "nodes": [
+        "badge_Badge",
+        "button_Button",
+        "card_Card",
+        "input_Input",
+        "modal_Modal"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/shopcrm/src/components/Button.jsx"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

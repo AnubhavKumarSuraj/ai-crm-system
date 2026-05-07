@@ -10,6 +10,7 @@ const variantStyles = {
   warn:    'bg-[var(--warn-light)]    text-[var(--warn)]',
   info:    'bg-[var(--info-light)]    text-[var(--info)]',
   accent:  'bg-[var(--accent-light)]  text-[var(--accent-text)]',
+  purple:  'bg-[#f3e8ff]             text-[#7e22ce]',
   neutral: 'bg-surface2               text-[var(--text2)]',
   danger:  'bg-[var(--danger-light)]  text-[var(--danger)]',
 };

@@ -39,9 +39,19 @@ export const getInactiveCustomers = (days = 30) =>
   request('GET', `/customers/inactive?days=${days}`);
 export const createCampaign = (data) => request('POST', '/campaigns', data);
 export const triggerCampaign = (data) => request('POST', '/campaigns/trigger', data);
+export const sendAiCampaign = async (data) => {
+  if (data instanceof FormData) {
+    const res = await fetch(BASE_URL + '/campaigns/send-ai', { method: 'POST', body: data });
+    const payload = await res.json().catch(() => ({}));
+    if (!res.ok || payload.status === 'error') throw new Error(payload.error || `HTTP ${res.status}`);
+    return payload;
+  }
+  return request('POST', '/campaigns/send-ai', data);
+};
 export const generateMessage = (data) => request('POST', '/ai/generate-message', data);
 export const sendMessage = (data) => request('POST', '/messages/send', data);
 export const getLogs = () => request('GET', '/logs');
 export const runInactiveRecovery = () =>
   request('POST', '/automation/remind-inactive');
 export const getMessages = () => request('GET', '/messages');
+export const getMessageSummary = () => request('GET', '/messages/summary');

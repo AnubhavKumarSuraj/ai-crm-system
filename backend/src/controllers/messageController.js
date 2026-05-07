@@ -16,4 +16,20 @@ const getMessages = async (req, res) => {
   }
 };
 
-module.exports = { getMessages };
+const getMessageSummary = async (req, res) => {
+  try {
+    const data = await messageService.getMessageSummary();
+
+    res.json({
+      status: 'success',
+      data,
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: 'error',
+      error: error.message,
+    });
+  }
+};
+
+module.exports = { getMessages, getMessageSummary };
